@@ -1,4 +1,9 @@
 #include <stdio.h>
+void divide(int a, int b)
+{
+	printf ("devide: %d\n", a/b);
+}
+
 void add(int a, int b)
 {
 	printf ("add : %d\n", (a + b));
@@ -14,6 +19,7 @@ int main()
 {
 	add(2, 3);
 	subtract(40,30);
+	divide(40, 10);
 	return 0;
 }
 

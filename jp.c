@@ -12,6 +12,7 @@ void subtract(int a, int b)
 {
 	printf ("sub: %d\n", (a - b));
 	printf ("mul: %d\n", a*b);
+	printf ("sub : %d\n", (a-b));
 }
 
 
